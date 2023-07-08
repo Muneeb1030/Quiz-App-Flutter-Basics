@@ -17,7 +17,7 @@ class _LoadingState extends State<Loading> {
   void initState() {
     super.initState();
     Timer(
-      Duration(seconds: 3),
+      Duration(seconds: 1),
       () {
         Navigator.pushReplacement(
           context,
